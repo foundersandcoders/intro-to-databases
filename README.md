@@ -100,3 +100,5 @@ SELECT [column1, column2, column3, ...] FROM [table_name] WHERE [condition]
 - Explain the structure of an insert:
 INSERT INTO [table_name] [column1, column2, column3, ...]
 VALUES [value1, value2, value3, ...];
+
+- explain how both quiries with an example.
