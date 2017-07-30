@@ -30,6 +30,17 @@ types of data in the example.
 - If the answer was that you should put the posts in the users table, explain that you shouldn't repeat the same information more than once and it would indicate the need for a new table, otherwise ask them to explain why they wouldn't put the posts next to a user's details.
 - Draw the tables on the board, explain what each column means and that each row is a data entry for a specific user/post.
 - Explain the need of an id: every table has a unique and not null (not empty) column which is the id of that entry, useful for referencing a specific row, when you have multiple tables.
+- The tables that you would use would look like this:
+
+Users table:
+
+|user_id|username|password|
+|-------|--------|--------|
+
+Posts table:
+
+|post_id|user_id|
+|-------|-------|
 
 ## What is a schema and how to make one?
 
