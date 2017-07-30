@@ -44,4 +44,50 @@ Posts table:
 
 ## What is a schema and how to make one?
 
+- Explain that a schema is the way we divide the database into tables.
+- so in the example the schema is the users table and the posts table.
+- Give another example of a database and ask the students to build a schema, a pets database, the database will have the pet owners with their name, address and phone number and their pets with the name and what type of animal is it.
+- Do these examples
+  - one pet per person, simple and intuitive, same as the example before.
+
+  Owners table:
+
+  |id|name|address|phone number|
+  |--|----|-------|------------|
+
+  Pets table:
+
+  |id|name|type|owner_id|
+  |--|----|----|--------|
+
+  - multiple pets per person, same table as before.
+
+  - one pet can be owned by more than one person
+  Owners table:
+
+  |id|name|address|phone number|pet_id|
+  |--|----|-------|------------|------|
+
+  Pets table:
+
+  |id|name|type|
+  |--|----|----|
+
+  - multiple owners can have multiple pets (shared custody), this would require a new table for connecting the first two.
+
+  Owners table:
+
+  |id|name|address|phone number|
+  |--|----|-------|------------|
+
+  Pets table:
+
+  |id|name|type|
+  |--|----|----|
+
+  Ownership table:
+
+  |id|owner_id|pet_id|
+  |--|--------|------|
+
 ## Basic commands for selecting and inserting.
