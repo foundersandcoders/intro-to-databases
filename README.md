@@ -91,3 +91,12 @@ Posts table:
   |--|--------|------|
 
 ## Basic commands for selecting and inserting.
+
+- Assuming you have a database ready with some data in it, how would you get the data from the database, explain the structure of a select query:
+Select [columns (separated by a comma)] From [table]
+and if it's too easy, add the where constraint
+SELECT [column1, column2, column3, ...] FROM [table_name] WHERE [condition]
+
+- Explain the structure of an insert:
+INSERT INTO [table_name] [column1, column2, column3, ...]
+VALUES [value1, value2, value3, ...];
