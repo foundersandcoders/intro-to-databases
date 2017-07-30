@@ -1,6 +1,6 @@
 # Intro to Databases
 
-## What's a database, why use it in an applicatiuon and when is it useful?
+## What's a database, why use it in an application and when is it useful?
 
 ## How to structure a database and how to separate it into tables?
 
