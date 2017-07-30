@@ -46,7 +46,7 @@ Posts table:
 
 - Explain that a schema is the way we divide the database into tables.
 - so in the example the schema is the users table and the posts table.
-- Give another example of a database and ask the students to build a schema, a pets database, the database will have the pet owners with their name, address and phone number and their pets with the name and what type of animal is it.
+- Give another example of a database and ask the students to build the schema: a pets database, the database will have the pet owners with their name, address and phone number and their pets with the name and what type of animal is it.
 - Do these examples
   - one pet per person, simple and intuitive, same as the example before.
 
