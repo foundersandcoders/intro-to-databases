@@ -1,7 +1,7 @@
 # Introduction to Databases
 
 This repo is designed as a guide for Founders and Coders mentors so they can give an introduction to databases to beginner developers who are not familiar with the concept.
-this README is accompanied with slides to help explain the materials. (These slides are based on @stevehopkinson's slides and talk on databases). 
+this README is accompanied with slides to help explain the materials. (These slides are based on @stevehopkinson's slides and talk on databases).
 
 ## What's a database, why use it in an application and when is it useful?
 
@@ -22,8 +22,9 @@ this README is accompanied with slides to help explain the materials. (These sli
 ### Example of a database
 
 - The example would be about users and posts (a small facebook).
-- You can start by explaining that the app has users where each user has a username and a password, whereas each post has a user reference and a post number.
-- Before writing this on the board, ask the students how they expect each data would be represented, as in what data does a user have and what does a post have.
+- You can start by explaining that the app has users where each user has a username and a password, whereas each post has a user reference and a post id.
+- Before writing this on the board, ask the students how they expect each data would be represented, as in which data does a user have and what does a post have, don't mention the concept of tables yet.
+
 
 ## How to structure a database and how to separate it into tables?
 
