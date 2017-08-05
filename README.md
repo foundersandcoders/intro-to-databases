@@ -50,8 +50,13 @@ Posts table:
 
 ## A taste of Schemas and Relationships
 
+*slides 7-8*
+
 - Explain that a schema is the way we divide the database into tables, this doesn't have to be detailed since there is a research topic on schemas.
 - so in the example the schema is the users table and the posts table.
+
+*slide 9*
+
 - Give another example of a database and ask the students to build the schema: a pets database, the database will have the pet owners with their name, address and phone number and their pets with the name and what type of animal is it.
 - Do these examples
   - one pet per person, simple and intuitive, same as the example before.
@@ -97,7 +102,6 @@ Owners table:
   |id|owner_id|pet_id|
   |--|--------|------|
 
-*slide 7*
 
 ## Basic commands for selecting and inserting.
 
