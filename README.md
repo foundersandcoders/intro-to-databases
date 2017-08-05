@@ -1,14 +1,17 @@
-# Intro to Databases
+# Introduction to Databases
 
-This repo is designed as a guideline for mentors so they can explain databases to begginner developers who are not familiar with the concept.
+This repo is designed as a guide for Founders and Coders mentors so they can give an introduction to databases to beginner developers who are not familiar with the concept.
+this README is accompanied with slides to help explain the materials. (These slides are based on @stevehopkinson's slides and talk on databases). 
 
 ## What's a database, why use it in an application and when is it useful?
+
+*slides 1-5*
 
 ### When and why to use a database?
 
 - Apps that we use in real life, save data, for example if an app has users then it'll save their login details.
-- This data has to be saved somewhere, a "data centre" where we save new data, fetch it or edit it.
-- This "data centre" is called a database.
+- This data has to be saved somewhere, a "data center" where we save new data, fetch it or edit it.
+- This "data center" is called a database.
 - You can simplify this concept by saying that a database is a chunk of memory dedicated for the app's data.
 
 ### In which applications is it useful to have a database?
@@ -16,14 +19,15 @@ This repo is designed as a guideline for mentors so they can explain databases t
 - Ask the students this question to see if they have understood.
 - Then ask which applications would not need a database.
 
-### Example for a database
+### Example of a database
 
 - The example would be about users and posts (a small facebook).
-- You can start by explaining that the app has users where each user has a username and a password, whereas each post has a user reference and a post id.
-- Before writing this on the board, ask the students how they expect each data would be represented, as in which data does a user have and what does a post have.
+- You can start by explaining that the app has users where each user has a username and a password, whereas each post has a user reference and a post number.
+- Before writing this on the board, ask the students how they expect each data would be represented, as in what data does a user have and what does a post have.
 
 ## How to structure a database and how to separate it into tables?
 
+*slide 6*
 - After explaining what data you need, you can start talking about tables.
 - A table is a specific type of data, ask the students how would they separate the
 types of data in the example.
@@ -39,8 +43,8 @@ Users table:
 
 Posts table:
 
-|post_id|user_id|
-|-------|-------|
+|post_id|post_number|user_id|
+|-------|-----------|-------|
 
 ## What is a schema and how to make one?
 
@@ -50,7 +54,7 @@ Posts table:
 - Do these examples
   - one pet per person, simple and intuitive, same as the example before.
 
-  Owners table:
+Owners table:
 
   |id|name|address|phone number|
   |--|----|-------|------------|
@@ -63,10 +67,11 @@ Posts table:
   - multiple pets per person, same table as before.
 
   - one pet can be owned by more than one person
-  Owners table:
 
-  |id|name|address|phone number|pet_id|
-  |--|----|-------|------------|------|
+Owners table:
+
+|id|name|address|phone number|pet_id|
+|--|----|-------|------------|------|
 
   Pets table:
 
@@ -75,7 +80,7 @@ Posts table:
 
   - multiple owners can have multiple pets (shared custody), this would require a new table for connecting the first two.
 
-  Owners table:
+Owners table:
 
   |id|name|address|phone number|
   |--|----|-------|------------|
@@ -90,10 +95,12 @@ Posts table:
   |id|owner_id|pet_id|
   |--|--------|------|
 
+*slide 7*
+
 ## Basic commands for selecting and inserting.
 
 - Assuming you have a database ready with some data in it, how would you get the data from the database, explain the structure of a select query:
-Select [columns (separated by a comma)] From [table]
+Select [column1, column2, column3, ...] From [table]
 and if it's too easy, add the where constraint
 SELECT [column1, column2, column3, ...] FROM [table_name] WHERE [condition]
 
