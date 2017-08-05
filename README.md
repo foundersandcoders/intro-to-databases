@@ -1,7 +1,7 @@
 # Introduction to Databases
 
 This repo is designed as a guide for Founders and Coders mentors so they can give an introduction to databases to beginner developers who are not familiar with the concept.
-this README is accompanied with slides to help explain the materials. (These slides are based on @stevehopkinson's slides and talk on databases).
+this README is accompanied with slides to help explain the materials. (These slides are based on @stevehopkinson 's slides and talk on databases).
 
 ## What's a database, why use it in an application and when is it useful?
 
