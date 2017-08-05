@@ -44,8 +44,9 @@ Users table:
 
 Posts table:
 
-|post_id|post_number|user_id|
-|-------|-----------|-------|
+|post_id|text|user_id|
+|-------|----|-------|
+
 
 ## What is a schema and how to make one?
 
