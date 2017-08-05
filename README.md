@@ -48,9 +48,9 @@ Posts table:
 |-------|----|-------|
 
 
-## What is a schema and how to make one?
+## A taste of Schemas and Relationships
 
-- Explain that a schema is the way we divide the database into tables.
+- Explain that a schema is the way we divide the database into tables, this doesn't have to be detailed since there is a research topic on schemas.
 - so in the example the schema is the users table and the posts table.
 - Give another example of a database and ask the students to build the schema: a pets database, the database will have the pet owners with their name, address and phone number and their pets with the name and what type of animal is it.
 - Do these examples
